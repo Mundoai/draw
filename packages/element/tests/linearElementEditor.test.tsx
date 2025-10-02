@@ -1,5 +1,6 @@
 import { pointCenter, pointFrom } from "@excalidraw/math";
-import { act, queryByTestId, queryByText } from "@testing-library/react";
+import { act } from "@testing-library/react";
+import { queryByTestId, queryByText } from "@testing-library/dom";
 import { vi } from "vitest";
 
 import {
